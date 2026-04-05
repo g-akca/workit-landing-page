@@ -6,11 +6,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-base leading-base text-purple-900">
+    <div className="text-base leading-base text-purple-900 min-h-screen flex flex-col">
       <Header />
       <HeroSection />
 
-      <main>
+      <main className="grow">
         <FeaturesSection />
         <CTASection />
       </main>
