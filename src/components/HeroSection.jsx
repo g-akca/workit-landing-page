@@ -1,5 +1,7 @@
 import heroImg from "/images/image-hero.webp";
 
+import Button from "./Button";
+
 function HeroSection() {
   return (
     <section className="relative bg-purple-900 rounded-b-[100%_50px] pt-14 px-5 pb-42 mb-20 text-center flex flex-col gap-10 items-center">
@@ -7,9 +9,9 @@ function HeroSection() {
         Data <span className="underline decoration-3 decoration-green underline-offset-6">tailored</span> to<br/>your needs.
       </h1>
 
-      <button type="button" className="bg-green px-8 py-3 font-bold">
+      <Button>
         Learn more
-      </button>
+      </Button>
 
       <img src={heroImg} alt="Hero image" className="w-80 h-46 absolute -bottom-20" />
     </section>
