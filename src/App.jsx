@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-base leading-base text-purple-900 min-h-screen flex flex-col">
+    <div className="text-base leading-base text-purple-900 min-h-screen flex flex-col overflow-hidden">
       <Header />
 
       <main className="grow">

@@ -1,12 +1,14 @@
 import Button from "./Button";
+
 import founderImg from "/images/image-founder.webp";
+import pattern3 from "/images/bg-pattern-3.svg";
 
 function CTASection() {
   return (
     <section className="pt-16 tablet:pt-0 px-5 tablet:px-11 flex flex-col">
       <img src={founderImg} alt="Founder image" className="w-70 self-center tablet:self-start translate-y-12 tablet:translate-y-28" />
 
-      <div className="bg-purple-900 text-white p-8 tablet:p-12 z-10 flex flex-col gap-8 items-center tablet:items-start text-center tablet:text-start tablet:ml-44">
+      <div className="relative bg-purple-900 text-white p-8 tablet:p-12 z-10 flex flex-col gap-8 items-center tablet:items-start text-center tablet:text-start tablet:ml-44">
         <h2 className="font-fraunces text-[32px] tablet:text-[48px] leading-[120%]">Be the first to test</h2>
 
         <p>
@@ -16,6 +18,8 @@ function CTASection() {
         <Button>
           Apply for access
         </Button>
+
+        <img src={pattern3} alt="Background pattern" className="absolute -bottom-28.5 right-3.5" />
       </div>
     </section>
   )
