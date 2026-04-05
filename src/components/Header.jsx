@@ -6,7 +6,7 @@ function Header() {
       <nav className="w-full desktop:max-w-280 flex justify-between items-center">
         <img src={lightLogo} alt="Workit logo" className="h-6" />
 
-        <button type="button" className="border-b-3 border-b-green text-white text-[18px] leading-base font-bold">
+        <button type="button" className="border-b-3 border-b-green text-white text-[18px] leading-base font-bold cursor-pointer transition-all hover:text-green">
           Apply for access
         </button>
       </nav>
