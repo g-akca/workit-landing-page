@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section className="relative bg-purple-900 rounded-b-[100%_50px] pt-14 px-5 pb-42 mb-20 text-center flex flex-col gap-10 items-center">
       <h1 className="text-white font-fraunces font-semibold text-[48px] leading-[100%]">
-        Data <span className="underline decoration-green underline-offset-6">tailored</span> to<br/>your needs.
+        Data <span className="underline decoration-3 decoration-green underline-offset-6">tailored</span> to<br/>your needs.
       </h1>
 
       <button type="button" className="bg-green px-8 py-3 font-bold">
