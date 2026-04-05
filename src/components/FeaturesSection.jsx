@@ -1,6 +1,6 @@
 function FeaturesSection() {
   return (
-    <section className="py-16 px-5 flex flex-col gap-8 text-center">
+    <section className="pt-16 pb-18 px-5 flex flex-col gap-8 text-center">
       <div className="flex flex-col gap-6 items-center">
         <span className="h-12 aspect-square rounded-full border-purple-500 border font-fraunces text-[20px] flex justify-center items-center">1</span>
 

@@ -8,10 +8,13 @@ function App() {
   return (
     <div className="text-base leading-base text-purple-900 min-h-screen flex flex-col">
       <Header />
-      <HeroSection />
 
-      <main className="grow flex flex-col gap-6">
-        <FeaturesSection />
+      <main className="grow">
+        <div className="bg-purple-100 rounded-b-[100%_50px]">
+          <HeroSection />
+          <FeaturesSection />
+        </div>
+
         <CTASection />
       </main>
 
