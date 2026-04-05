@@ -10,7 +10,7 @@ function App() {
       <Header />
 
       <main className="grow">
-        <div className="bg-purple-100 rounded-b-[100%_50px] tablet:rounded-b-[100%_85px]">
+        <div className="bg-purple-100 rounded-b-[100%_50px] tablet:rounded-b-[100%_85px] desktop:rounded-b-[100%_120px]">
           <HeroSection />
           <FeaturesSection />
         </div>

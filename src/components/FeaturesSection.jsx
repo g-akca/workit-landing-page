@@ -17,15 +17,17 @@ function FeaturesSection() {
   ]
 
   return (
-    <section className="pt-16 pb-18 tablet:pt-14 tablet:pb-29 px-5 tablet:px-11 flex flex-col gap-8 text-center tablet:text-start">
-      {features.map((item, index) => (
-        <FeaturesItem 
-          key={item.title}
-          index={index + 1}
-          title={item.title}
-          description={item.description}
-        />
-      ))}
+    <section className="pt-16 pb-18 tablet:pt-14 tablet:pb-29 desktop:pt-22 desktop:pb-54 px-5 tablet:px-11 desktop:px-20 flex justify-center">
+      <div className="flex flex-col desktop:grid desktop:grid-cols-3 gap-8 text-center tablet:text-start desktop:text-center max-w-280">
+        {features.map((item, index) => (
+          <FeaturesItem 
+            key={item.title}
+            index={index + 1}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
+      </div>
     </section>
   )
 }
