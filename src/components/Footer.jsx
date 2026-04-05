@@ -5,7 +5,7 @@ import twitterIcon from "/images/icon-twitter.svg";
 
 function Footer() {
   return (
-    <footer className="p-20 flex flex-col items-center gap-14">
+    <footer className="p-20 desktop:p-28 flex flex-col items-center gap-14">
       <img src={darkLogo} alt="Logo image" />
 
       <div className="flex justify-center gap-7">
