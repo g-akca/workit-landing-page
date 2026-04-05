@@ -10,7 +10,7 @@ function App() {
       <Header />
       <HeroSection />
 
-      <main className="grow">
+      <main className="grow flex flex-col gap-6">
         <FeaturesSection />
         <CTASection />
       </main>
