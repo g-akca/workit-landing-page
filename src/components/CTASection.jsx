@@ -19,7 +19,7 @@ function CTASection() {
           Apply for access
         </Button>
 
-        <img src={pattern3} alt="Background pattern" className="absolute -bottom-28.5 right-3.5" />
+        <img src={pattern3} alt="Background pattern" className="hidden tablet:block absolute -bottom-28.5 right-3.5" />
       </div>
     </section>
   )

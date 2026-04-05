@@ -15,8 +15,8 @@ function HeroSection() {
         Learn more
       </Button>
 
-      <img src={pattern1} alt="Background pattern" className="absolute -left-56 top-0" />
-      <img src={pattern2} alt="Background pattern" className="absolute -right-23 bottom-22" />
+      <img src={pattern1} alt="Background pattern" className="hidden tablet:block absolute -left-56 top-0" />
+      <img src={pattern2} alt="Background pattern" className="hidden tablet:block absolute -right-23 bottom-22" />
 
       <img src={heroImg} alt="Hero image" className="w-80 tablet:w-128.5 absolute -bottom-20 tablet:-bottom-34" />
     </section>
