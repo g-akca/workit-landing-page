@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function HeroSection() {
   return (
-    <section className="relative bg-purple-900 rounded-b-[100%_50px] tablet:rounded-b-[100%_85px] pt-14 px-5 tablet:px-11 pb-42 tablet:pb-50 mb-20 text-center flex flex-col gap-10 items-center">
+    <section className="relative bg-purple-900 rounded-b-[100%_50px] tablet:rounded-b-[100%_85px] pt-14 px-5 tablet:px-11 pb-42 tablet:pb-50 mb-20 tablet:mb-33.5 text-center flex flex-col gap-10 items-center">
       <h1 className="text-white font-fraunces text-[48px] tablet:text-[60px] leading-[100%]">
         Data <span className="underline decoration-3 decoration-green underline-offset-6 tablet:underline-offset-7">tailored</span> to<br/>your needs.
       </h1>
